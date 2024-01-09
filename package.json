@@ -1,0 +1,13 @@
+{
+  "name": "electron-buggy",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.1.2"
+  }
+}
