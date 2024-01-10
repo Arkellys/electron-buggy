@@ -1,4 +1,4 @@
-A temporary repository to showcase the bug of the [this issue](https://github.com/electron/electron/issues/40777).
+A temporary repository to showcase the bug of [this issue](https://github.com/electron/electron/issues/40777).
 
 
 #### Branches:
