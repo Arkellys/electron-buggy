@@ -15,7 +15,7 @@ const createWindow = () => {
 		}
 	});
 
-	win.loadFile("index.html");
+	win.loadURL(process.env.DEV_LOCAL_URL);
 	win.webContents.openDevTools();
 }
 

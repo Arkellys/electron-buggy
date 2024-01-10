@@ -2,12 +2,17 @@
   "name": "electron-buggy",
   "version": "1.0.0",
   "type": "module",
-  "main": "main.js",
+  "main": "electron/main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "rebuiltron start"
   },
   "license": "MIT",
   "devDependencies": {
     "electron": "^28.1.2"
+  },
+  "browserslist": "last 2 electron major versions",
+  "dependencies": {
+    "rebuiltron": "Arkellys/rebuiltron#esm",
+    "rimraf": "^5.0.5"
   }
 }
