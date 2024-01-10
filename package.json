@@ -4,6 +4,7 @@
   "type": "module",
   "main": "main.js",
   "scripts": {
+    "dev": "vite",
     "start": "electron ."
   },
   "license": "MIT",
@@ -11,6 +12,7 @@
     "electron": "^28.1.2"
   },
   "dependencies": {
-    "rimraf": "^5.0.5"
+    "rimraf": "^5.0.5",
+    "vite": "^5.0.11"
   }
 }
